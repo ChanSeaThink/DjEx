@@ -21,4 +21,5 @@ urlpatterns = [
     #url(r'^admin/', include(admin.site.urls)),
     #第一种url写法;
     url(r'^$', 'N01request.views.index'),
+    url(r'^N01hello$', 'N01request.views.hello'),
 ]
